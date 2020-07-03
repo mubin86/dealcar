@@ -84,7 +84,10 @@ body {
 
 /*navbar*/
 .navbar {
-  background: var(--mainWhite);
+  background: var(--mainYellow);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 .navbar-icon {
   font-size: 2rem;
